@@ -33,13 +33,11 @@ app-all {
         "map-container map-container map-container map-container map-container"
         "gamevault-container gamevault-container gamevault-container back-skills-container back-skills-container"
         "gamevault-container gamevault-container gamevault-container back-skills-container back-skills-container"
-        "pokedex-container pokedex-container pokedex-container pokedex-container pokedex-container"
-        "pokedex-container pokedex-container pokedex-container pokedex-container pokedex-container"
-        "learning-skills-container learning-skills-container learning-skills-container github-container linkedin-container"
-        "learning-skills-container learning-skills-container learning-skills-container cv-container cv-container"
-        "contact-container contact-container contact-container contact-container contact-container"
+        "github-container linkedin-container pokedex-container pokedex-container pokedex-container"
+        "cv-container cv-container pokedex-container pokedex-container pokedex-container"
+        "contact-container contact-container contact-container contact-container learning-skills-container"
         ;
-    grid-template-rows: 200px 10% 20% 10% 10% 10% 10% 10% 7% 10% 150px;
+    grid-template-rows: 200px auto auto auto auto auto auto auto 150px;
     grid-template-columns: repeat(5, 1fr);
     margin: 15px 0;
     justify-content: center;
@@ -55,10 +53,6 @@ app-all {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.contact-container {
-    grid-area: contact-container;
 }
 
 header, .contact {
@@ -113,8 +107,9 @@ header, .contact {
 }
 
 .github__img {
-    width: 60%;
+    width: 90%;
     max-width: 120px;
+    margin: 10px;
 }
 
 .github a {
@@ -144,8 +139,9 @@ header, .contact {
 }
 
 .linkedin__img {
-    width: 60%;
+    width: 90%;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(171deg) brightness(160%) contrast(102%);
+    margin: 10px;
 }
 
 .linkedin a {
@@ -218,13 +214,18 @@ header, .contact {
     flex-wrap: wrap;
     gap: 10px;
     width: 90%;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 
 
 .front-skills__title, .back-skills__title, .learning-skills__title {
     font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.learning-skills__title {
+    margin: 0 10px;
 }
 
 .front-skills__item, .back-skills__item {
@@ -233,7 +234,7 @@ header, .contact {
 }
 
 .learning-skills__item {
-    width: 20%;
+    width: 30%;
     max-width: 75px;
 }
 
@@ -298,12 +299,16 @@ header, .contact {
 
 /*contact*/
 
+.contact-container {
+    grid-area: contact-container;
+}
+
 .contact__button {
     font-family: Roboto, sans-serif;
     font-weight: 0;
-    font-size: 17px;
+    font-size: 80%;
     width:100%;
-    height: 50%;
+    height: 30%;
     text-align: center;
     color: #fff;
     background-color: #007bff;
@@ -374,8 +379,12 @@ header, .contact {
       font-size: 18px;
     }
 
-    .front-skills__title, .back-skills__title, .learning-skills__title {
+    .front-skills__title, .back-skills__title {
     font-size: 14px;
+    }
+
+    .learning-skills__title {
+        font-size: 14px;
     }
   }
   
@@ -412,8 +421,8 @@ header, .contact {
       font-size: 24px;
     }
 
-    .front-skills__title, .back-skills__title, .learning-skills__title {
-    font-size: 26px;
+    .front-skills__title, .back-skills__title {
+        font-size: 26px;
     }
   }
   
