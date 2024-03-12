@@ -39,7 +39,7 @@ app-all {
         "learning-skills-container learning-skills-container learning-skills-container cv-container cv-container"
         "contact-container contact-container contact-container contact-container contact-container"
         ;
-    grid-template-rows: 200px 10vh 20vh 20vh 10vh 20vh 20vh 10vh 10vh 10vh 150px;
+    grid-template-rows: 200px 10% 20% 10% 10% 10% 10% 10% 7% 10% 150px;
     grid-template-columns: repeat(5, 1fr);
     margin: 15px 0;
     justify-content: center;
