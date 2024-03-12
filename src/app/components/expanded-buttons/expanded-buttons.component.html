@@ -1,0 +1,5 @@
+<button class="expanded-button" (mouseenter)="expandContent()" (mouseleave)="shrinkContent()" (click)="redirectToExternalURL()">
+    <span class="arrow" *ngIf="!expanded">→</span>
+    <span *ngIf="expanded">{{projectName}}</span>
+</button>
+  

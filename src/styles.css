@@ -1,0 +1,420 @@
+/* BODY */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: #f0f1f2;
+}
+
+h3, h2, h1, p {
+    color: #363636;
+}
+/*ALL SECTION*/
+
+app-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-container {
+    display: grid;
+    width: 92%;
+    max-width: 790px;
+    gap: 15px;
+    grid-template-areas: 
+        "introduction-container introduction-container introduction-container introduction-container introduction-container"
+        "front-skills-container front-skills-container upgrade-container upgrade-container upgrade-container"
+        "front-skills-container front-skills-container upgrade-container upgrade-container upgrade-container"
+        "map-container map-container map-container map-container map-container"
+        "gamevault-container gamevault-container gamevault-container back-skills-container back-skills-container"
+        "gamevault-container gamevault-container gamevault-container back-skills-container back-skills-container"
+        "pokedex-container pokedex-container pokedex-container pokedex-container pokedex-container"
+        "pokedex-container pokedex-container pokedex-container pokedex-container pokedex-container"
+        "learning-skills-container learning-skills-container learning-skills-container github-container linkedin-container"
+        "learning-skills-container learning-skills-container learning-skills-container cv-container cv-container"
+        "contact-container contact-container contact-container contact-container contact-container"
+        ;
+    grid-template-rows: 200px 10vh 20vh 20vh 10vh 20vh 20vh 10vh 10vh 10vh 150px;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 15px 0;
+    justify-content: center;
+}
+
+/*INTRODUCTION*/
+
+.introduction-container, .contact-container {
+    grid-area: introduction-container;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container {
+    grid-area: contact-container;
+}
+
+header, .contact {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+}
+
+.introduction__description {
+    flex-grow: 1;
+    font-size: 0.75rem;
+}
+
+
+.introduction__role {
+    align-self: flex-end;
+}
+
+.introduction__title {
+    margin: 5px 0;
+}
+
+.introduction__name {
+    color: #007bff;
+}
+
+.introduction__highlight {
+    color: #007bff;
+}
+
+
+/*GITHUB*/
+
+.github-container {
+    grid-area: github-container;
+    width: 100%;
+    height: 100%;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+
+.github__img {
+    width: 60%;
+    max-width: 120px;
+}
+
+.github a {
+    display: flex;
+    justify-content: center;
+}
+
+/*LINKEDIN*/
+
+.linkedin-container {
+    grid-area: linkedin-container;
+    width: 100%;
+    background-color: #0e76a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+.linkedin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.linkedin__img {
+    width: 60%;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(171deg) brightness(160%) contrast(102%);
+}
+
+.linkedin a {
+    display: flex;
+    justify-content: center;
+}
+
+/*UPGRADE*/
+
+.upgrade-container {
+    grid-area: upgrade-container;
+    width: 100%;
+    grid-row: span 2;
+    position: relative;
+}
+
+.project-upgrade {
+    height: 100%;
+    background-image: url(./assets/images/proyecto-upgrade.png);
+    background-size: cover;
+    background-position: top;
+    border-radius: 20px;
+}
+
+/*POKEDEX*/
+
+.pokedex-container {
+    grid-area: pokedex-container;
+    width: 100%;
+    position: relative;
+}
+
+.project-pokedex {
+    height: 100%;
+    background-image: url(./assets/images/proyecto-pokedex.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+/*SKILLS*/
+
+.front-skills-container, .back-skills-container, .learning-skills-container {
+    grid-area: front-skills-container;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.back-skills-container {
+    grid-area: back-skills-container;
+}
+
+.learning-skills-container {
+    grid-area: learning-skills-container;
+}
+
+.front-skills, .back-skills, .learning-skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.front-skills__area, .back-skills__area, .learning-skills__area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+    margin: 0 10px;
+}
+
+
+
+.front-skills__title, .back-skills__title, .learning-skills__title {
+    font-size: 1rem;
+}
+
+.front-skills__item, .back-skills__item {
+    width: 40%;
+    max-width: 75px;
+}
+
+.learning-skills__item {
+    width: 20%;
+    max-width: 75px;
+}
+
+
+/*MAP*/
+.map-container {
+    grid-area: map-container;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.map__element {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/*GAMEVAULT*/
+
+.gamevault-container {
+    grid-area: gamevault-container;
+    width: 100%;
+    position: relative;
+}
+
+.project-gamevault {
+    height: 100%;
+    background-image: url(./assets/images/proyecto-gamevault.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+/*CV*/
+
+.cv-container {
+    grid-area: cv-container;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+
+.cv__img {
+    height: 70%;
+    max-width: 120px;
+}
+
+/*contact*/
+
+.contact__button {
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 17px;
+    width:100%;
+    height: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contact__button:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+/*Expanded button*/
+.expanded-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: width 0.3s, height 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.expanded-button:hover {
+    width: 150px;
+    border-radius: 30px;
+    transition: width 0.3s, height 0.3s;
+}
+
+
+.arrow {
+    font-size: 24px;
+}
+  
+/* Fuente para dispositivos móviles */
+@media screen and (max-width: 575px) {
+    .introduction__description {
+      font-size: 14px;
+    }
+  
+    .introduction__role {
+      font-size: 12px;
+    }
+  
+    .introduction__title {
+      font-size: 18px;
+    }
+
+    .front-skills__title, .back-skills__title, .learning-skills__title {
+    font-size: 14px;
+    }
+  }
+  
+  /* Fuente para tablets y dispositivos pequeños */
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .introduction__description {
+      font-size: 16px;
+    }
+  
+    .introduction__role {
+      font-size: 14px;
+    }
+  
+    .introduction__title {
+      font-size: 20px;
+    }
+
+    .front-skills__title, .back-skills__title, .learning-skills__title {
+    font-size: 20px;
+    }
+  }
+  
+  /* Fuente para pantallas grandes */
+  @media screen and (min-width: 769px) {
+    .introduction__description {
+      font-size: 18px;
+    }
+  
+    .introduction__role {
+      font-size: 16px;
+    }
+  
+    .introduction__title {
+      font-size: 24px;
+    }
+
+    .front-skills__title, .back-skills__title, .learning-skills__title {
+    font-size: 26px;
+    }
+  }
+  
+
