@@ -31,13 +31,14 @@ app-all {
         "front-skills-container front-skills-container upgrade-container upgrade-container upgrade-container"
         "front-skills-container front-skills-container upgrade-container upgrade-container upgrade-container"
         "map-container map-container map-container map-container map-container"
+        "upcode-container upcode-container upcode-container upcode-container upcode-container"
         "gamevault-container gamevault-container gamevault-container back-skills-container back-skills-container"
         "gamevault-container gamevault-container gamevault-container back-skills-container back-skills-container"
         "github-container linkedin-container pokedex-container pokedex-container pokedex-container"
         "cv-container cv-container pokedex-container pokedex-container pokedex-container"
         "contact-container contact-container contact-container contact-container learning-skills-container"
         ;
-    grid-template-rows: 200px auto auto auto auto auto auto auto 150px;
+    grid-template-rows: 200px auto auto auto 150px auto auto auto auto 150px;
     grid-template-columns: repeat(5, 1fr);
     margin: 15px 0;
     justify-content: center;
@@ -269,6 +270,22 @@ header, .contact {
 .project-gamevault {
     height: 100%;
     background-image: url(./assets/images/proyecto-gamevault.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+/*UPCODE*/
+
+.upcode-container {
+    grid-area: upcode-container;
+    width: 100%;
+    position: relative;
+}
+
+.project-upcode {
+    height: 100%;
+    background-image: url(./assets/images/DEMO-UPCODE.png);
     background-size: cover;
     background-position: center;
     border-radius: 20px;

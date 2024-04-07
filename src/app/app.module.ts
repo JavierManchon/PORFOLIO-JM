@@ -19,6 +19,7 @@ import { CvComponent } from './layouts/cv/cv.component';
 import { ContactComponent } from './layouts/contact/contact.component';
 import { LearningSkillsComponent } from './layouts/learning-skills/learning-skills.component';
 import { ExpandedButtonsComponent } from './components/expanded-buttons/expanded-buttons.component';
+import { ProjectUpcodeComponent } from './layouts/project-upcode/project-upcode.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ExpandedButtonsComponent } from './components/expanded-buttons/expanded
     CvComponent,
     ContactComponent,
     LearningSkillsComponent,
-    ExpandedButtonsComponent
+    ExpandedButtonsComponent,
+    ProjectUpcodeComponent
   ],
   imports: [
     BrowserModule,
