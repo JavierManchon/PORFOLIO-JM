@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Page-1" id="abBmpKpvQ-5i7o5CwdEH">
-    <mxGraphModel dx="1229" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1643" dy="1378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -385,8 +385,14 @@
         <mxCell id="uW_OJMuN96ojh1_-McZM-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="780" y="485" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Z7TLss3FuFoFb6Jp4Hn7-5" value="1. Pase raso&lt;div&gt;2. Pase profundo&lt;/div&gt;&lt;div&gt;3. Pase raso&lt;/div&gt;&lt;div&gt;4. Falta&lt;/div&gt;&lt;div&gt;5. Pase profundo&lt;/div&gt;&lt;div&gt;6. Penalti&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z7TLss3FuFoFb6Jp4Hn7-5" value="1. Pase raso&lt;div&gt;2. Pase profundo&lt;/div&gt;&lt;div&gt;3. Pase raso&lt;/div&gt;&lt;div&gt;4. Falta&lt;/div&gt;&lt;div&gt;5. Pase profundo&lt;/div&gt;&lt;div&gt;6. Penalti&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="650" width="230" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="-3P12curUzwIDtJ5BpRY-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="3240" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-3P12curUzwIDtJ5BpRY-2" value="Notas&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Poner 5 jugadores también en la delantera, 5 huecos para permitir avances de centro campistas&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Habilidad regatear: si hay un hueco delante puedes intentar un regate para superar al defensa y ocupar la posición a su espalda&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Meter stats para pase y habilidad, pase para pases largos, que pueden ser saltar varias posiciones y los rasos solo al lado. Los largos requieres comprobación de stats. La habilidad para comprobación de habilidades ñ, regates, controlar balones largos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ver como estaría bien gestionar los cambios de posición controlados, estilo, que dada una situación&amp;nbsp; preguntar si quieres que baje a su posición inicial&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="375" width="440" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
