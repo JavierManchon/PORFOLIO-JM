@@ -412,28 +412,28 @@
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-14" value="2,4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="725" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BZJd7sGNwP6z3ZhYxog2-15" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 26px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Habilidad especial: Elige a que defensa superar en una situacion de disparo&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BZJd7sGNwP6z3ZhYxog2-15" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 26px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Habilidad especial: Si es posible, pasa el balon a un jugador adjacente, muevete a un posicion libre de delante y haz una tirada de pase porfundo con el jugador que ha recibido el balon. Esta accion no consume turnos.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="1110" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-16" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="490" y="1105" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-17" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="450" y="560" width="40" height="40" as="geometry" />
+          <mxGeometry x="450" y="830" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BZJd7sGNwP6z3ZhYxog2-18" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 17px;&quot;&gt;SKI&lt;/h1&gt;&lt;div&gt;5&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="BZJd7sGNwP6z3ZhYxog2-18" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 17px;&quot;&gt;HAB&lt;/h1&gt;&lt;div&gt;5&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="200" y="250" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-19" value="PAS&lt;div&gt;5&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="280" y="250" width="70" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BZJd7sGNwP6z3ZhYxog2-20" value="SKI&lt;div&gt;5&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="BZJd7sGNwP6z3ZhYxog2-20" value="&lt;div&gt;HAB&lt;/div&gt;&lt;div&gt;5&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="190" y="485" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-21" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 17px;&quot;&gt;PAS&lt;/h1&gt;&lt;div&gt;7&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="270" y="485" width="70" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="BZJd7sGNwP6z3ZhYxog2-22" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 17px;&quot;&gt;SKI&lt;/h1&gt;&lt;div&gt;3&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="BZJd7sGNwP6z3ZhYxog2-22" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 17px;&quot;&gt;HAB&lt;/h1&gt;&lt;div&gt;3&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="190" y="730" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-23" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 17px;&quot;&gt;PAS&lt;/h1&gt;&lt;div&gt;5&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" vertex="1" parent="1">
@@ -498,6 +498,9 @@
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-49" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 26px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;webapp con dados&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="1180" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BZJd7sGNwP6z3ZhYxog2-51" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;ACCION BASICA DE UN JUGADOR&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;Si el jugador tiene el balon se hace una tirada d6 para comprobar que accion lleva a cabo.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;Pase raso: Pase a un jugador que tenga al lado (izq-der)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;Pase largo: Pase a jugadores mas lejanos en la misma linea. No se hace comprobacionde defensa pero si de habilidad del receptor.&lt;br&gt;&lt;br&gt;Pase porfundo: Pase cortando la linea defensiva, se comprueba que jugador defiende de los que tienen influencia en el jugador y se comprueba si se hace con exito, si delante no tiene un jugador el pase es directo. Si en la posicion de destino no hay un jugador, ese puesto lo ocupa uno de los jugadores anexos a la zona de envio y ocupa esa posicionc on el balon.&lt;br&gt;&lt;br&gt;Pase largo profundo, igual que el&amp;nbsp; pase largo pero saltando una linea.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="1190" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
