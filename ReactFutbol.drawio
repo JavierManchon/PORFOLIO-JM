@@ -449,7 +449,7 @@
           <mxGeometry x="1230" y="720" width="560" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-32" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;0 - 0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="730" width="150" height="30" as="geometry" />
+          <mxGeometry x="1270" y="835" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-37" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;Los pases largos ( con altura ), no hacen comprobacion de defensa, sino coporbacion de pase del lanzador y skill del receptor (ver como hacerlo para superar tiradas que no son enfrentadas)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1880" y="530" width="380" height="30" as="geometry" />
