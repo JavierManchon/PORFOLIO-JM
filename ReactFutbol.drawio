@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Page-1" id="abBmpKpvQ-5i7o5CwdEH">
-    <mxGraphModel dx="1548" dy="4104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1548" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,7 +359,7 @@
           <mxGeometry x="190" y="890" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MxQKVyVz9hXeG-xn2GiW-48" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;Tiro a puerta: Si hay un defensa en la zona de influencia se comprueba que jugador defiende si hay varios tiando un dado. Si el valor atk + dado es mayor que valor def + dado es tiro a puerta.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;Para ver si es gol se compara la tirada con un modifcador de +3 mas el valor de ATK del rematador con el valor de GK mas dado dle portero.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;EN TODOS LOS TIROS A PUERTA&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;Si supera el atacante el gol, si no, un 1,&amp;nbsp; el rechace cae a un delantero, 2, 3 el balon va a corner, 4,5 se la queda y 6 le cae a un defensor.&lt;/span&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="140" width="560" height="60" as="geometry" />
+          <mxGeometry x="1230" y="280" width="560" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z7TLss3FuFoFb6Jp4Hn7-5" value="1. Pase raso&lt;div&gt;2. Pase profundo&lt;/div&gt;&lt;div&gt;3. Pase largo prof&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. Pas profundo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;5. Pase profundo&lt;/div&gt;&lt;div&gt;6. Pase largo prof&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="650" width="110" height="95" as="geometry" />
@@ -443,10 +443,10 @@
           <mxGeometry x="270" y="890" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-29" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;Falta: Si se saca un 4-6, el balon va a puerta, se hace una tirada de atk del lanzador y una tirada de GK del portero.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="465" width="560" height="30" as="geometry" />
+          <mxGeometry x="1230" y="605" width="560" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-31" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;Corner: Si se saca un 5,6, el balon va a puerta, se hace una tirada de atk del lanzador y una tirada de GK del portero.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="580" width="560" height="30" as="geometry" />
+          <mxGeometry x="1230" y="720" width="560" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-32" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;0 - 0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1290" y="730" width="150" height="30" as="geometry" />
@@ -458,7 +458,7 @@
           <mxGeometry x="650" y="760" width="65" height="65" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-38" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;Saque de centro: En sentido de las agujas del reloj se tira un d6 y se comprueba en que jugador cae , si no hay un jugador, el balon es para el que haya en esa direccion, si no lo hay va para el siguiente puesto si sigues con las agujas del reloj.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="870" width="560" height="30" as="geometry" />
+          <mxGeometry x="1220" y="1010" width="560" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#006600;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
