@@ -49,10 +49,10 @@
         <mxCell id="M_QFJIrPNWLJ5PNfMRwV-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="740" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M_QFJIrPNWLJ5PNfMRwV-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="M_QFJIrPNWLJ5PNfMRwV-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="880" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M_QFJIrPNWLJ5PNfMRwV-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="M_QFJIrPNWLJ5PNfMRwV-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1020" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M_QFJIrPNWLJ5PNfMRwV-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -361,9 +361,6 @@
         <mxCell id="MxQKVyVz9hXeG-xn2GiW-48" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;Tiro a puerta: Si hay un defensa en la zona de influencia se comprueba que jugador defiende si hay varios tiando un dado. Si el valor atk + dado es mayor que valor def + dado es tiro a puerta.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;Para ver si es gol se compara la tirada con un modifcador de +3 mas el valor de ATK del rematador con el valor de GK mas dado dle portero.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;EN TODOS LOS TIROS A PUERTA&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;Si supera el atacante el gol, si no, un 1,&amp;nbsp; el rechace cae a un delantero, 2, 3 el balon va a corner, 4,5 se la queda y 6 le cae a un defensor.&lt;/span&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1230" y="140" width="560" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uW_OJMuN96ojh1_-McZM-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-          <mxGeometry x="670" y="485" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="Z7TLss3FuFoFb6Jp4Hn7-5" value="1. Pase raso&lt;div&gt;2. Pase profundo&lt;/div&gt;&lt;div&gt;3. Pase largo prof&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. Pas profundo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;5. Pase profundo&lt;/div&gt;&lt;div&gt;6. Pase largo prof&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="650" width="110" height="95" as="geometry" />
         </mxCell>
@@ -450,6 +447,15 @@
         </mxCell>
         <mxCell id="BZJd7sGNwP6z3ZhYxog2-31" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;Corner: Si se saca un 5,6, el balon va a puerta, se hace una tirada de atk del lanzador y una tirada de GK del portero.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1230" y="580" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZJd7sGNwP6z3ZhYxog2-32" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;0 - 0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="730" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZJd7sGNwP6z3ZhYxog2-37" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;Los pases largos ( con altura ), no hacen comprobacion de defensa, sino coporbacion de pase del lanzador y skill del receptor (ver como hacerlo para superar tiradas que no son enfrentadas)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="530" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uW_OJMuN96ojh1_-McZM-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+          <mxGeometry x="650" y="760" width="65" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
